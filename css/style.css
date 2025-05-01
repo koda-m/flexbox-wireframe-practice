@@ -48,3 +48,25 @@ footer {
   padding: 5%;
   border-radius: 5%;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+	max-width: 90%;
+    margin: 5% auto;
+  }
+	
+  .content-area {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2%;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  main {
+    flex: 2;
+  }
+}
